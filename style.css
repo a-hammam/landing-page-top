@@ -1,0 +1,227 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+/* Style the header */
+.header, .intro, .footer {
+    background: #1F2937;
+    color: #fff;
+    margin: 0 0px;
+    padding: 10px 10%;
+}
+
+.header {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-bottom: 32px;
+    gap: 8px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+/* Style the navigation menu */
+.nav {
+    margin: 0 0;
+    text-align: center;
+}
+
+.nav ul {
+    padding: 0;
+    display: flex;
+    gap: 1em;
+    flex: 1 1 auto;
+    word-break: break-word;
+    flex-wrap: wrap;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.nav ul li a:hover {
+    color: #007BFF;
+}
+
+
+/* Style the main content area */
+.main {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.intro {
+    display: flex;
+    gap: 16px;
+}
+
+.intro-left {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
+    flex: 1 1 auto;
+}
+
+.intro-left h1 {
+    font-size: 48px;
+    color: #F9FaF8;
+    font-weight: 900;
+}
+
+.intro-left p {
+    font-size: 18px;
+    color: #E5E7EB;
+    
+}
+
+.intro-left button {
+    background-color: #007BFF;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.intro-left button:hover,
+.section-4 button:hover {
+    background-color: #0056b3;
+}
+
+.intro-right {
+   display: flex;
+    flex: 1 0 20%; 
+}
+.intro-right img {
+    
+    border: solid rgb(146, 18, 26) 2px;
+    width: 300px;
+    height: 100px;
+    border-radius: 20px;
+}
+
+/* cards style */
+section-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.section-2 h2 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.section-2-cards {
+    display: flex;
+    gap: 16px;
+}
+
+.section-2-cards .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+    font-size: 12px;
+    color: grey;
+}
+
+.section-2-cards .card img{
+    border: solid blue 2px;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.section-3 {
+    background-color: #E5E7EB;
+}
+
+.section-3 .quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    margin-bottom: 16px;
+}
+
+.section-3 .quote-author {
+    color: #1F2937;
+    font-size: 18x;
+    font-weight: 900;
+    text-align: right;
+}
+
+.section-4 {
+    margin: 24px 10%;
+    background-color: #3882F6;
+    color: white;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.section-4 h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.section-4 p {
+    font-size: 14px;
+}
+
+.section-4 button {
+    background-color: #3882F6;
+    color: #FFFFFF;
+    border: solid white 2px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.intro, .section-4 {
+    padding: 32px 10%;
+}
+
+.section-2, .section-3 {
+    padding: 32px 20%;
+}
+
+/* Style the footer */
+.footer {
+    text-align: center;
+    padding: 24px 0;
+    margin-top: 20px;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 14px;
+}
